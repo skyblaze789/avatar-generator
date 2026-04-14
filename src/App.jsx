@@ -17,7 +17,7 @@ function App() {
   } = useAvatar(config);
 
   return (
-    <div className="min-h-dvh bg-gray-200 flex justify-center py-6 px-4">
+    <div className="min-h-dvh bg-gray-200 flex justify-center py-6 px-4 w-screen">
       <main className="w-full max-w-5xl">
         <h1 className="pb-6 text-3xl text-left font-bold text-blue-950 tracking-wider uppercase">
           AVATAR GENERATOR
